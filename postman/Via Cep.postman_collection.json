@@ -1,0 +1,36 @@
+{
+	"info": {
+		"_postman_id": "e9d5d28f-8912-409f-b0fa-1b0ee7cff5de",
+		"name": "Via Cep",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "15952256",
+		"_collection_link": "https://diones32.postman.co/workspace/Workspace-Diones~6db78dad-ecc5-419b-926f-36f6909bb4c5/collection/15952256-e9d5d28f-8912-409f-b0fa-1b0ee7cff5de?action=share&source=collection_link&creator=15952256"
+	},
+	"item": [
+		{
+			"name": "GET Cep",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:4343/:cep",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4343",
+					"path": [
+						":cep"
+					],
+					"variable": [
+						{
+							"key": "cep",
+							"value": "62320005"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
